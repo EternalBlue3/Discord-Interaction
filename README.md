@@ -16,4 +16,5 @@ while 5 > 4:
     time.sleep(0.25)
     
 This script will change your status 4 times/sec. The change_status() function takes 2 inputs: the new status and the token.
-Just a warning, but if you try to send requests to discord too fast, it will return 400 (meaning that your request didn't go through). For example, if you were to try to spam someone with messages, discord would stop you by blocking your requests.
+Just a warning, but if you try to send requests to discord too fast, it will return 400 (meaning that your request didn't go through). 
+For example, if you were to try to spam someone with messages, discord would stop you by blocking your requests.
